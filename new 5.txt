@@ -1,0 +1,16 @@
+Based on the answer from the previous question, which using a hash function. The
+collection T of subset to check if they represent a collection of disjoint subsets. The
+algorithm would be:
+
+1) Create an empty hash table
+2) Transverse the first set and store its element in hash
+for loop where i<set1.length
+set.add(set1[i]);
+3) Transverse the second set and check if any element of it is already in hash
+or not
+for loop where i<set2.length
+if(set.contains(set2[i])))
+then return false;
+4) If all elements of second set are not present in hash table, return true.
+The time-complexity of the algorithm above would be O(m+n), if and only if, the add()
+and contains() have the time-complexity of O(1).
